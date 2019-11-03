@@ -1,10 +1,10 @@
-# sapper-typescript-scss-template
+# svelte-sapper-rollup-scss-typescript-template
 
-The default [Sapper](https://github.com/sveltejs/sapper) template is available for Rollup and Webpack.
-
+This is a modification of the default [Sapper](https://github.com/sveltejs/sapper) rollup template.
+It includes support for typescript and scss/sass inside your `.svelte` files.
+This also allows you to write your server routes in typescript and include typescript and scss files directly in your svelte components.
 
 ## Getting started
-
 
 ### Using `degit`
 
@@ -12,21 +12,31 @@ The default [Sapper](https://github.com/sveltejs/sapper) template is available f
 
 ```bash
 npx degit "ShadowfeindX/svelte-sapper-rollup-scss-typescript-template" my-app
+cd my-app
+yarn install # or npm install
 ```
+
+
+### Using `create-sapper-app`
+
+You can copy my short script [create-sapper-app](https://gist.github.com/ShadowfeindX/1986d528e91b15340283908a3113b393).
+Once you've saved it into your path, you can run `create-sapper-app my-app` and it will clone and install the template for you.
+Or, if you prefer to use it in a more portable manner, you can copy it anywhere on your pc and run it with `./path/to/create-sapper-app my-app`.
+
+The script will also prompt you to initialize the project as a git repo, open the folder in VS Code, and/or start the development server.
+You can bypass these prompts by pass `-y` or `-n` after your project name.
 
 ### Running the project
 
-However you get the code, you can install dependencies and run the project in development mode with:
+However you get the code, you can run the project in development mode with:
 
 ```bash
-cd my-app
-npm install # or yarn add
-npm run dev # or yarn dev
+yarn dev # or npm run dev
 ```
 
-Open up [localhost:3001](http://localhost:3001) and start clicking around.
+Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
-Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
+Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help with svelte/sapper templating.
 
 
 ## Structure

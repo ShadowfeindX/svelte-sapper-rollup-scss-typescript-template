@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.0.svg#fontawesome) format("svg");
+  unicode-range: U+f081, U+f08c, U+f092, U+f099, U+f09b, U+f0d2-f0d5, U+f113, U+f136, U+f13b-f13c, U+f15a, U+f167-f169, U+f16c-f16e, U+f170, U+f173-f174, U+f17a-f17e, U+f180, U+f184, U+f189-f18c, U+f194, U+f19a-f19b, U+f1a0-f1a4, U+f1a6-f1a7, U+f1a9-f1aa, U+f1b4, U+f1b6-f1b7, U+f1bc-f1be, U+f1ca-f1cc, U+f1d0-f1d1, U+f1d4-f1d6, U+f1e7-f1e8, U+f1ed-f1ee, U+f1f0-f1f2, U+f1f4-f1f5, U+f202, U+f208-f209, U+f20d-f20e, U+f211-f213, U+f215, U+f231-f232, U+f237, U+f23a-f23b, U+f23d-f23e, U+f24b-f24c, U+f260-f268, U+f26a-f26b, U+f26d-f26e, U+f270, U+f27d-f27e, U+f280-f282, U+f284-f285, U+f287-f28a, U+f293-f294, U+f297-f299, U+f2a5-f2a6, U+f2a9, U+f2ab-f2ad, U+f2b0, U+f2b2-f2b4, U+f2b8, U+f2c4-f2c6, U+f2d5-f2da, U+f2dd-f2de, U+f2e0, U+f35c, U+f368-f374, U+f378-f37d, U+f37f-f380, U+f383-f385, U+f388, U+f38b-f38f, U+f392, U+f394-f397, U+f399-f39a, U+f3a1-f3a4, U+f3a6-f3b2, U+f3b4-f3b8, U+f3ba-f3bc, U+f3c0, U+f3c3-f3c4, U+f3c6-f3c8, U+f3ca, U+f3cc, U+f3d0, U+f3d2, U+f3d4-f3d7, U+f3da-f3db, U+f3df, U+f3e1-f3e3, U+f3e6-f3e7, U+f3e9-f3ec, U+f3ee-f3ef, U+f3f5-f3f6, U+f3f8-f3f9, U+f3fe, U+f402-f405, U+f407-f408, U+f40a-f40d, U+f411-f417, U+f419, U+f41b-f41d, U+f41f, U+f421, U+f426
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.1.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.1.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.1.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.1.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.1.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.1.svg#fontawesome) format("svg");
+  unicode-range: U+f16b, U+f269, U+f425
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.2.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.2.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.2.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.2.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.2.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.2.svg#fontawesome) format("svg");
+  unicode-range: U+f42d-f42f
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.3.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.3.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.3.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.3.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.3.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.3.svg#fontawesome) format("svg");
+  unicode-range: U+f18d, U+f19e, U+f1b5, U+f1d7, U+f210, U+f216, U+f286, U+f2b1, U+f393, U+f3b9, U+f3cb, U+f3d3, U+f3d8-f3d9, U+f3dc, U+f409, U+f423, U+f429, U+f430-f431
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.5.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.5.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.5.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.5.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.5.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.5.svg#fontawesome) format("svg");
+  unicode-range: U+f452, U+f457
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.9.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.9.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.9.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.9.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.9.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.9.svg#fontawesome) format("svg");
+  unicode-range: U+f44d
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.10.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.10.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.10.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.10.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.10.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.10.svg#fontawesome) format("svg");
+  unicode-range: U+f2ae, U+f4d5, U+f4e5
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.11.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.11.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.11.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.11.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.11.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.11.svg#fontawesome) format("svg");
+  unicode-range: U+f203, U+f4e6-f4f2, U+f4f8
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.12.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.12.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.12.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.12.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.12.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.0.12.svg#fontawesome) format("svg");
+  unicode-range: U+f4f7, U+f50a, U+f50c-f50d, U+f510, U+f512-f513
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.1.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.1.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.1.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.1.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.1.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.1.0.svg#fontawesome) format("svg");
+  unicode-range: U+f25e, U+f375, U+f5a3, U+f5be, U+f5cc, U+f5cf
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.2.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.2.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.2.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.2.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.2.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.2.0.svg#fontawesome) format("svg");
+  unicode-range: U+f5f1, U+f63f
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.3.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.3.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.3.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.3.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.3.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.3.0.svg#fontawesome) format("svg");
+  unicode-range: U+f642
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.0.svg#fontawesome) format("svg");
+  unicode-range: U+f4f3, U+f6ca, U+f6cc, U+f6dc, U+f704, U+f730
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.2.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.2.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.2.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.2.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.2.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.4.2.svg#fontawesome) format("svg");
+  unicode-range: U+f3e4
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.6.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.6.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.6.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.6.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.6.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.6.0.svg#fontawesome) format("svg");
+  unicode-range: U+f181, U+f77b, U+f78d, U+f790, U+f797, U+f7af-f7b1, U+f7b3, U+f7bb, U+f7df, U+f7e3
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.7.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.7.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.7.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.7.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.7.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.7.0.svg#fontawesome) format("svg");
+  unicode-range: U+f198, U+f1a5, U+f1a8, U+f1f3, U+f214, U+f23c, U+f296, U+f2aa, U+f391, U+f39d, U+f3f7, U+f427, U+f4f4, U+f50e, U+f60f
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.0.svg#fontawesome) format("svg");
+  unicode-range: U+f171, U+f179, U+f1e9, U+f27c, U+f3e8, U+f3f3, U+f41a, U+f41e, U+f420, U+f428, U+f42a-f42c, U+f459, U+f4e4, U+f4f6, U+f4f9, U+f50b, U+f50f, U+f511, U+f514, U+f592, U+f5a8, U+f5b2, U+f5b5, U+f5c6, U+f5f7, U+f5fa, U+f612, U+f69d, U+f6af, U+f6c9, U+f731, U+f75d, U+f778, U+f77a, U+f785, U+f789, U+f791, U+f798-f799, U+f7c6, U+f7d3, U+f7d6, U+f7e0-f7e1, U+f834-f83d, U+f83f-f840
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.1.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.1.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.1.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.1.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.1.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.1.svg#fontawesome) format("svg");
+  unicode-range: U+f0e1
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.2.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.2.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.2.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.2.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.2.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.8.2.svg#fontawesome) format("svg");
+  unicode-range: U+f082, U+f09a, U+f1d2-f1d3, U+f39e, U+f59e, U+f7bc, U+f841-f842
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.9.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.9.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.9.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.9.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.9.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.9.0.svg#fontawesome) format("svg");
+  unicode-range: U+f39f
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.10.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.10.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.10.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.10.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.10.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.10.0.svg#fontawesome) format("svg");
+  unicode-range: U+f89e
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.0.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.0.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.0.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.0.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.0.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.0.svg#fontawesome) format("svg");
+  unicode-range: U+f4f5, U+f8a6, U+f8ca, U+f8d2, U+f8e1, U+f8e8
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.2.eot);
+  src: url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.2.eot#iefix) format("embedded-opentype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.2.woff2) format("woff2"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.2.woff) format("woff"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.2.ttf) format("truetype"), url(/fonts/fontawesome/pro/fa-brands-400-free-5.11.2.svg#fontawesome) format("svg");
+  unicode-range: U+f3bd
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands"
+}

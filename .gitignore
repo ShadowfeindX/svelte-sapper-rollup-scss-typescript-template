@@ -5,3 +5,4 @@ yarn-error.log
 /cypress/screenshots/
 /__sapper__/
 yarn.lock
+/.rpt2_cache/

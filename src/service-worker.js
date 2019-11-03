@@ -65,7 +65,8 @@ self.addEventListener('fetch', event => {
 	// might prefer a cache-first approach to a network-first one.)
 	event.respondWith(
 		caches
-			.open(`offline${timestamp}`)
+			// .open(`offline${timestamp}`)
+			.open(ASSETS)
 			.then(async cache => {
 				try {
 					const response = await fetch(event.request);

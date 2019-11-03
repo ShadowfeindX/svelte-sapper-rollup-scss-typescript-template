@@ -1,5 +1,5 @@
 import resolve from 'rollup-plugin-node-resolve';
-import replace from 'rollup-plugin-replace';
+import replace from '@rollup/plugin-replace';
 import commonjs from 'rollup-plugin-commonjs';
 import svelte from 'rollup-plugin-svelte';
 import babel from 'rollup-plugin-babel';
@@ -32,9 +32,7 @@ export default {
 		input: config.client.input(),
 		output: config.client.output(),
 		plugins: [
-			typescript({
-				typescript: require('typescript')
-			}),
+			typescript(),
 			replace({
 				'process.browser': true,
 				'process.env.NODE_ENV': JSON.stringify(mode)
@@ -56,9 +54,7 @@ export default {
 				runtimeHelpers: true,
 				exclude: ['node_modules/@babel/**'],
 				presets: [
-					['@babel/preset-env', {
-						targets: '> 0.25%, not dead'
-					}]
+					['@babel/preset-env']
 				],
 				plugins: [
 					'@babel/plugin-syntax-dynamic-import',
@@ -80,9 +76,7 @@ export default {
 		input: config.server.input(),
 		output: config.server.output(),
 		plugins: [
-			typescript({
-				typescript: require('typescript')
-			}),
+			typescript(),
 			replace({
 				'process.browser': false,
 				'process.env.NODE_ENV': JSON.stringify(mode)
