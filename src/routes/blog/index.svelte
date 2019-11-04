@@ -6,9 +6,11 @@
 	}
 </script>
 
-<script>
+<!-- <script>
 	export let posts;
-</script>
+</script> -->
+
+<script lang="ts" src="_index.ts"></script>
 
 <style>
 	ul {
@@ -32,3 +34,7 @@
 		<li><a rel='prefetch' href='blog/{post.slug}'>{post.title}</a></li>
 	{/each}
 </ul>
+
+{#if condition}
+	<h1>{test}</h1>
+{/if}

@@ -50,7 +50,7 @@ export default {
 			commonjs(),
 
 			legacy && babel({
-				extensions: ['.js', '.mjs', '.html', '.svelte'],
+				extensions: ['.ts', '.js', '.mjs', '.html', '.svelte'],
 				runtimeHelpers: true,
 				exclude: ['node_modules/@babel/**'],
 				presets: [
