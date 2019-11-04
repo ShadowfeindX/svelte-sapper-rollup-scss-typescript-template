@@ -38,10 +38,10 @@
 
 <svelte:head>
 	<title>Sapper project template</title>
-	<!-- <link rel="stylesheet" href="css/fontawesome/pro/duotone.css"> -->
+	<link rel="stylesheet" href="css/fontawesome/pro/duotone.css">
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1><i class="fad fa-acorn"></i> Great success! <i class="fad fa-acorn"></i></h1>
 
 <figure>
 	<img alt='Borat' src='assets/images/great-success.png'>
@@ -49,6 +49,3 @@
 </figure>
 
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
-
-<i class="fad fa-acorn"></i>
-<i class="fad fa-acorn"></i>
