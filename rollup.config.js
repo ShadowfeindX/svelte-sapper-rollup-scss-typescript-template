@@ -3,6 +3,7 @@ import replace from '@rollup/plugin-replace';
 import commonjs from 'rollup-plugin-commonjs';
 import svelte from 'rollup-plugin-svelte';
 import babel from 'rollup-plugin-babel';
+import json from 'rollup-plugin-json';
 import {
 	terser
 } from 'rollup-plugin-terser';
@@ -81,6 +82,7 @@ export default {
 				'process.browser': false,
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
+			json(),
 			svelte({
 				preprocess,
 				generate: 'ssr',
@@ -91,7 +93,10 @@ export default {
 			}),
 			commonjs()
 		],
-		external: Object.keys(pkg.dependencies).concat(
+		// external: Object.keys(pkg.dependencies).concat(
+		// 	require('module').builtinModules || Object.keys(process.binding('natives'))
+		// ),
+		external: [].concat(
 			require('module').builtinModules || Object.keys(process.binding('natives'))
 		),
 
