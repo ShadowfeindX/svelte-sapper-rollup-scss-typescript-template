@@ -1,38 +1,35 @@
-# svelte-sapper-rollup-scss-typescript-template
+# svelte-sapper-rollup-scss-typescript-template#now
 
 This is a modification of the default [Sapper](https://github.com/sveltejs/sapper) rollup template.
 It includes support for typescript and scss/sass inside your `.svelte` files.
 This also allows you to write your server routes in typescript and include typescript and scss files directly in your svelte components.
 
+This branch supports deployment to Zeit Now v2.
+
 ## Getting started
+
+### Using `create-sapper-now`
+
+If you have `yarn` installed you can copy my short script. [create-sapper-now](https://gist.github.com/ShadowfeindX/fd14a0b649fe31a58876df169c232e9e).
+Once you've saved it into your path, you can run `create-sapper-now my-app` and it will clone and install the template for you.
+Or, if you prefer to use it in a more portable manner, you can copy it anywhere on your pc and run it with `./path/to/create-sapper-now my-app`.
+
+The script will also prompt you to initialize the project as a git repo, open the folder in VS Code, and/or start the development server.
+You can bypass these prompts by pass `-y` or `-n` after your project name.
 
 ### Using `degit`
 
 [`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository.
 
 ```bash
-npx degit "ShadowfeindX/svelte-sapper-rollup-scss-typescript-template" my-app
+npx degit "ShadowfeindX/svelte-sapper-rollup-scss-typescript-template#now" my-app
 cd my-app
 yarn install # or npm install
 ```
 
-
-### Using `create-sapper-app`
-
-You can copy my short script [create-sapper-app](https://gist.github.com/ShadowfeindX/1986d528e91b15340283908a3113b393).
-Once you've saved it into your path, you can run `create-sapper-app my-app` and it will clone and install the template for you.
-Or, if you prefer to use it in a more portable manner, you can copy it anywhere on your pc and run it with `./path/to/create-sapper-app my-app`.
-
-The script will also prompt you to initialize the project as a git repo, open the folder in VS Code, and/or start the development server.
-You can bypass these prompts by pass `-y` or `-n` after your project name.
-
 ### Running the project
 
-However you get the code, you can run the project in development mode with:
-
-```bash
-yarn dev # or npm run dev
-```
+However you get the code, you can run the project in development mode with `yarn dev` (or `npm run dev`).
 
 Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
@@ -84,14 +81,16 @@ This template uses Rollup  to provide code-splitting and dynamic imports, as wel
 
 ## Production mode and deployment
 
-To start a production version of your app, run `npm run build && npm start` or `yarn build && yarn start`. This will disable live reloading, and activate the appropriate bundler plugins.
-
-You can deploy your application to any environment that supports Node 8 or above. As an example, to deploy to [Now](https://zeit.co/now), run these commands:
+To build and deploy your finished app on Zeit Now v2, make sure you are logged into Now then run the `deploy` or `deploy-prod` command to deploy to either a development or production domain:
 
 ```bash
-npm install -g now
-now
+yarn now login # or npx now login
+yarn deploy-prod # or npm run deploy-prod
 ```
+
+To start a local production version of your app, run `yarn build && yarn start` (or `npm run build && npm start`). This will disable live reloading, and activate the appropriate bundler plugins.
+
+If you want to export your app in a static format to support distribution from a CDN, run `yarn export` (or `npm run export`).
 
 
 ## Using external components
@@ -101,7 +100,7 @@ When using Svelte components installed from npm, such as [@sveltejs/svelte-virtu
 Because of that, it's essential that the bundler doesn't treat the package as an *external dependency*. You can modify the `external` option under `server` in [rollup.config.js](rollup.config.js) or simply install the package to `devDependencies` rather than `dependencies`, which will cause it to get bundled (and therefore compiled) with your app:
 
 ```bash
-npm install -D @sveltejs/svelte-virtual-list
+yarn add -D @sveltejs/svelte-virtual-list # or npm install -D @sveltejs/svelte-virtual-list
 ```
 
 
