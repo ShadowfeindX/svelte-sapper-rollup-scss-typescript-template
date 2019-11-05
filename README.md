@@ -6,6 +6,16 @@ This also allows you to write your server routes in typescript and include types
 
 ## Getting started
 
+### Using `create-sapper-app`
+
+You can copy my short script [create-sapper-app](https://gist.github.com/ShadowfeindX/1986d528e91b15340283908a3113b393).
+Once you've saved it into your path, you can run `create-sapper-app my-app` and it will clone and install the template for you.
+Or, if you prefer to use it in a more portable manner, you can copy it anywhere on your pc and run it with `./path/to/create-sapper-app my-app`.
+
+The script will also prompt you to initialize the project as a git repo, open the folder in VS Code, and/or start the development server.
+You can bypass these prompts by pass `-y` or `-n` after your project name.
+
+
 ### Using `degit`
 
 [`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository.
@@ -16,15 +26,6 @@ cd my-app
 yarn install # or npm install
 ```
 
-
-### Using `create-sapper-app`
-
-You can copy my short script [create-sapper-app](https://gist.github.com/ShadowfeindX/1986d528e91b15340283908a3113b393).
-Once you've saved it into your path, you can run `create-sapper-app my-app` and it will clone and install the template for you.
-Or, if you prefer to use it in a more portable manner, you can copy it anywhere on your pc and run it with `./path/to/create-sapper-app my-app`.
-
-The script will also prompt you to initialize the project as a git repo, open the folder in VS Code, and/or start the development server.
-You can bypass these prompts by pass `-y` or `-n` after your project name.
 
 ### Running the project
 
