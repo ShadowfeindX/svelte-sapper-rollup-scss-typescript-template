@@ -3,7 +3,7 @@
   "description": "TODO",
   "version": "0.0.1",
   "scripts": {
-    "setup": "now login && firebase login && firebase init",
+    "setup": "firebase login && firebase init",
     "dev": "sapper dev",
     "fire-dev": "firebase serve --host 0.0.0.0",
     "build": "sapper build --legacy",
